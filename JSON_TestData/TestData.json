@@ -1,0 +1,10 @@
+{
+    "firstname": "John",
+    "lastname": "Kennedy",
+    "address": [
+    	{
+    		"street": "abc",
+    		"city": "Bangalore"
+    	}
+    ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="Environment" value="Stage"/>
+  <test name="Test">
+    <classes>
+<!--       <class name="com.te.qa.smokeTestScripts.SearchProductTest"/> -->
+<!--       <class name="com.te.qa.smokeTestScripts.GetAllProductsList"/> -->
+<!-- 	   <class name="com.te.qa.smokeTestScripts.ValidateAddToCart"/> -->
+<!-- 	   <class name = "com.te.qa.smokeTestScripts.GetListOfProductsFromTEStore"/> -->
+<!-- 			<class name = "com.te.qa.smokeTestScripts.Verify_Footer"/> -->
+<!-- 			<class name = "com.te.qa.smokeTestScripts.TrackOrderDetails"/>  -->
+<!-- 			<class name = "com.te.qa.smokeTestScripts.VerifyAllLinks"/> -->
+			<class name = "com.te.qa.smokeTestScripts.VerifyLiveChat"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
