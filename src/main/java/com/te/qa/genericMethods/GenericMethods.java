@@ -34,6 +34,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import com.google.common.io.Files;
 import com.te.qa.resources.Resource_Helper;
@@ -106,6 +107,7 @@ public class GenericMethods {
 		} catch (Exception e) {
 			System.out.println("Element is not enabled");
 			e.getMessage();
+			
 		}
 	}
 	
